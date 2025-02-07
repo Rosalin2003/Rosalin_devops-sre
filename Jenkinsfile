@@ -14,7 +14,7 @@ pipeline {
 pipeline {
     agent any
      tools{
-        nodejs 'nodejs-22.6.0'
+        nodejs 'NodeJS-22.6.0'
      }
     stages {
         stage('npm version check') {
